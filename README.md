@@ -2,9 +2,15 @@
 
 This is an example of how you can implement the seeders ordering logic similar to the way Laravel Framework does.
 
-### Setup
+## Compatibility
+
+AdonisJS 4.1.0
+
+## Setup
 
 You need to add the "static" modifier in seeder's run methods so you don't need to instantiate the class inside the "DatabaseSeeder", making the code easier to read and write.
+
+### Seeder file
 
 ```js
 const Database = use('Database')
@@ -43,7 +49,7 @@ class DatabaseSeeder {
 module.exports = DatabaseSeeder
 ```
 
-### Seed
+## Seed
 
 Run the following command to run yours seeders.
 
