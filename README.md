@@ -13,6 +13,8 @@ You need to add the "static" modifier in seeder's run methods so you don't need 
 ### Seeder file
 
 ```js
+'use strict'
+
 const Database = use('Database')
 
 class UserTypeSeeder {
