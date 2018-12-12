@@ -2,9 +2,9 @@
 
 This is an example of how you can implement the seeders ordering logic similar to the way Laravel Framework does.
 
-## Compatibility
+### Compatibility
 
-AdonisJS 4.1.0
+**AdonisJS 4.1.0**
 
 ## Setup
 
