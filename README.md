@@ -56,5 +56,5 @@ module.exports = DatabaseSeeder
 Run the following command to run yours seeders.
 
 ```js
-adonis seed --files 'DatabaseSeeder.js'
+adonis seed --files DatabaseSeeder.js
 ```
